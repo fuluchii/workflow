@@ -15,6 +15,7 @@ angular.module('fuluchii.workflowChecklist', [])
             v.stepmap = {}
             angular.forEach(v.steps,function(item,key){
               v.stepmap[item] = false;
+              console.log(v)
             })
 
           })

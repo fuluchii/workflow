@@ -8,12 +8,12 @@
 <body>
 	<div class="bigtitle">WorkFlow-Checklist:example</div>
 	<div class="workflow-container"  ng-app="fuluchii.workflowChecklist">
-		<workflow workflow-stack='[{"title":"开发前","steps":["cq确认系分文档 http://cq.alipay.net/cqweb/","cq确认分支，本地拉取 http://cq.alipay.net/cqweb/","开发服务器申请及部署，paas平台：http://paas.aqc.alipay.net/paas/momitorDeploy.htm"],"state":0},{"title":"开发过程中","steps":["如果有Jar包升级，须提交dev仓库","如果有各种配置须在dev环境自己配置"],"state":0},{"title":"交付测试前","steps":["提交PMD报告，在hudson为分支新建job并查看pmd warnings.截图pmd trend作为交付报告。http://hudson-37.alipay.net:8080/","提交白盒扫描报告截图作为交付报告的一部分。http://scan.alipay.net/index.htm","提交CR报告，tala导出(eclipse)","运行自测用例"],"state":0},{"title":"功能测试阶段，合并代码前","steps":["关闭QA提出的功能bug","提交开发风险评估报告上传到cq。hudson-37.alipay.net:8080/job/FD-ali0615-batchpay","如有maven,antx,msg,drm等配置变更，须在cp平台提出申请","如有接口文档变更，提交正式接口文档","填写发布计划。http://ars.alipay.com/"],"state":0},{"title":"SIT环境，预发布","steps":["解决合并冲突，并review代码合并结果","确认配置变更在SIT生效","配合预发布测试，登陆跳板机确认日志正常"],"state":0},{"title":"线上切换","steps":["配合发布测试，登陆跳板机确认日志正常"],"state":0}]'></workflow>
+		<workflow workflow-stack='[{"title":"开发前","steps":["step1:checkitem","step2:checkitem"],"state":0},{"title":"开发过程中","steps":["checkitem","step1:checkitem"],"state":0},{"title":"交付测试前","steps":["step1:checkitem","step2:checkitem","step3:checkitem","step4:checkitem"],"state":0},{"title":"代码合并前","steps":["step1:checkitem","step2;checkitem","step3:checkitem","step4:checkitem"],"state":0},{"title":"预发布","steps":["step1:checkitem","step2:checkitem"],"state":0},{"title":"线上切换","steps":["step1:checkitem"],"state":0}]'></workflow>
 	</div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
-<script src="../dist/workflow-checklist.min.js"></script>
+<script src="../src/workflow-checklist.js"></script>
 <style>
 body{
 	background-color: #F5BCA9

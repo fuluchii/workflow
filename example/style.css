@@ -1,0 +1,82 @@
+/*reset*/
+a{
+	text-decoration: none
+}
+li{
+	list-style: none
+}
+ul{
+	-webkit-padding-start: 0px
+}
+
+/*tool-class*/
+.Hide{
+	display:none;
+}
+
+.Title{
+	font-size: 23px;
+	margin:10px 10px 5px 5px;
+}
+
+/*style*/
+.workflow-container .workflow-bar{
+	height: 34px;
+}
+
+.workflow-container .workflow-bar .bar-item{
+	float: left;
+	border-radius: 50%;
+	border:3px solid #eed2d2;
+	height: 20px;
+	width:20px;
+	margin: 4px;
+}
+
+
+
+.workflow-container .workflow-bar .bar-line{
+	float: left;
+	height:2px;
+	width:60px;
+	background-color: #d2d2d2;
+	margin-top:17px;
+	margin-bottom: 17px;
+}
+
+.item-checkitem{
+	line-height:30px;
+}
+.item-check {
+	margin:5px;
+	font-size: 20px;
+	margin-left: 20px;
+	
+}
+.item-check label{
+	margin-left: 10px;
+
+}
+
+.green{
+	background-color: #5cc26f
+}
+
+.red{
+	background-color:#ff3333;
+
+}
+.red:hover{
+	background-color:#ff9696;
+}
+
+.green:hover{
+	background-color: #5cee6f
+}
+
+.checkedlabel{
+	text-decoration: line-through;
+	color:#888888;
+}
+
+/*checkbox*/

@@ -22,11 +22,11 @@ In your web page:
 
 ####效果：
 
-[](https://raw.githubusercontent.com/fuluchii/workflow/master/src/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-06-14%20%E4%B8%8A%E5%8D%881.21.24.png)
+![](https://raw.githubusercontent.com/fuluchii/workflow/master/src/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-06-14%20%E4%B8%8A%E5%8D%881.21.24.png)
 
-[](https://raw.githubusercontent.com/fuluchii/workflow/master/src/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-06-14%20%E4%B8%8A%E5%8D%881.21.33.png)
+![](https://raw.githubusercontent.com/fuluchii/workflow/master/src/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-06-14%20%E4%B8%8A%E5%8D%881.21.33.png)
 
-[](https://raw.githubusercontent.com/fuluchii/workflow/master/src/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-06-14%20%E4%B8%8A%E5%8D%881.21.43.png)
+![](https://raw.githubusercontent.com/fuluchii/workflow/master/src/image/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202014-06-14%20%E4%B8%8A%E5%8D%881.21.43.png)
 
 
 
